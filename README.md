@@ -3,6 +3,7 @@
 ## Student Details
 
 - **Name:** Tedla Jeevan Kumar
+- **Registration Number:** 252U1R9159
 - **Section:** CSE GEN AI 2C / 112
 - **Lab Number:** 01
 - **Lab Title:** Node.js and Express Server
