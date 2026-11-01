@@ -9,7 +9,7 @@
 
 ## Live Deployment
 
-**Deployment URL:** Not deployed yet.
+**Deployment URL:** https://backend-lab-02-7zev.onrender.com
 
 ## Objective
 
