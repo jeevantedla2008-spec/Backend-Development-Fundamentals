@@ -304,7 +304,7 @@ The following common backend errors were studied as part of the lab.
 
 **Deployment Platform:** Render
 
-**Deployment URL:** Pending deployment.
+**Deployment URL:** https://backend-lab-03.onrender.com/
 
 The application will be deployed as a separate service for Lab 03.
 
