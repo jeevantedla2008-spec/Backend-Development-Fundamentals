@@ -106,7 +106,7 @@ The database is initialized automatically when the server starts. If the table i
 
 ## 7. API Endpoints
 
-Base URL:
+**Base URL:**
 
 ```text
 http://localhost:3000
@@ -167,6 +167,7 @@ Example JSON request body:
 ```
 
 Returns:
+
 - `201 Created` when the book is successfully added.
 - `400 Bad Request` when required fields are missing or the price is invalid.
 
@@ -193,6 +194,7 @@ Example JSON request body:
 ```
 
 Returns:
+
 - `200 OK` when successfully updated.
 - `400 Bad Request` when the request body is invalid.
 - `404 Not Found` when the book does not exist.
@@ -210,6 +212,7 @@ DELETE /books/11
 ```
 
 Returns:
+
 - `200 OK` when successfully deleted.
 - `404 Not Found` when the book does not exist.
 
@@ -248,22 +251,55 @@ Example:
 
 ## 10. Postman Testing and Screenshots
 
-The following API operations were tested using Postman.
+All API endpoints were tested using Postman. The following screenshots demonstrate successful requests, query parameter operations, input validation and error handling.
 
-| Screenshot | Test Description |
-|---|---|
-| 01-get-all-books.png | Retrieve all books |
-| 02-search-books.png | Search books using a query parameter |
-| 03-sorting.png | Sort books by a selected column |
-| 04-pagination.png | Test limit and offset |
-| 05-price-filter.png | Filter books by price range |
-| 06-get-book-by-id.png | Retrieve a book using its ID |
-| 07-post-success.png | Successfully add a new book |
-| 08-post-validation-error.png | Test invalid POST request |
-| 09-put-success.png | Successfully update a book |
-| 10-delete-success.png | Successfully delete a book |
-| 11-not-found-error.png | Test a nonexistent book ID |
-| 12-query-validation.png | Test invalid query parameter |
+### 10.1 GET All Books
+
+![GET All Books](screenshots/01-get-all-books.png)
+
+### 10.2 Search Books
+
+![Search Books](screenshots/02-search-books.png)
+
+### 10.3 Sorting Books
+
+![Sorting Books](screenshots/03-sorting.png)
+
+### 10.4 Pagination
+
+![Pagination](screenshots/04-pagination.png)
+
+### 10.5 Price Range Filtering
+
+![Price Filter](screenshots/05-price-filter.png)
+
+### 10.6 GET Book by ID
+
+![GET Book by ID](screenshots/06-get-book-by-id.png)
+
+### 10.7 POST - Add a New Book
+
+![POST Success](screenshots/07-post-success.png)
+
+### 10.8 POST - Validation Error
+
+![POST Validation Error](screenshots/08-post-validation-error.png)
+
+### 10.9 PUT - Update a Book
+
+![PUT Success](screenshots/09-put-success.png)
+
+### 10.10 DELETE - Remove a Book
+
+![DELETE Success](screenshots/10-delete-success.png)
+
+### 10.11 404 - Book Not Found
+
+![Not Found Error](screenshots/11-not-found-error.png)
+
+### 10.12 Query Parameter Validation
+
+![Query Validation](screenshots/12-query-validation.png)
 
 ## 11. Debugging Exercises
 
@@ -306,7 +342,7 @@ The following common backend errors were studied as part of the lab.
 
 **Deployment URL:** https://backend-lab-03.onrender.com/
 
-The application will be deployed as a separate service for Lab 03.
+The application is deployed as a separate service for Lab 03.
 
 ## 14. Conclusion
 
@@ -315,3 +351,5 @@ This lab helped develop a RESTful API using Node.js, Express.js and SQLite. It p
 Postman was used to test successful API operations and error scenarios. The lab improved understanding of REST API development and backend debugging.
 
 ---
+
+**End of Lab 03 Report**
